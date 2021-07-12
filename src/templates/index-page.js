@@ -206,7 +206,7 @@ const HomePage = ({ data }) => {
               color: "muted",
             }}
           >
-           Your eCommerce and point-of-sale design team.
+            Your e-commerce and point-of-sale design team.
           </p>
           <div
             className="description"
