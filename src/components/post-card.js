@@ -10,7 +10,7 @@ const PostCard = ({ data }) => (
       bg: "cardBg",
     }}
   >
-    {data.frontmatter.featuredImage ? (
+    {/* {data.frontmatter.featuredImage ? (
       <Link to={data.frontmatter.slug}>
         <GatsbyImage
           image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
@@ -20,7 +20,7 @@ const PostCard = ({ data }) => (
       </Link>
     ) : (
       ""
-    )}
+    )} */}
     <div className="post-content">
       <h2 className="title">
         <Link

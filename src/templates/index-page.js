@@ -34,11 +34,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tagline
-        featuredImage {
-          childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
-          }
-        }
+
         cta {
           ctaText
           ctaLink
@@ -58,11 +54,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
             title
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
-              }
-            }
+
           }
         }
       }

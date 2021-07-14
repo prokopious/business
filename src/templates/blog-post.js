@@ -97,7 +97,7 @@ const Post = ({ data, pageContext }) => {
             <h1>{frontmatter.title}</h1>
             <time sx={{color: "muted"}}>{frontmatter.date}</time>
           </section>
-          {Image ? (
+          {/* {Image ? (
             <GatsbyImage
               image={Image}
               alt={frontmatter.title + " - Featured image"}
@@ -105,7 +105,7 @@ const Post = ({ data, pageContext }) => {
             />
           ) : (
             ""
-          )}
+          )} */}
         </header>
 
         <div
@@ -131,11 +131,7 @@ export const pageQuery = graphql`
         slug
         title
         description
-        featuredImage {
-          childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
-          }
-        }
+
       }
     }
   }
